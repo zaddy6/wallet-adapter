@@ -35,7 +35,7 @@ export interface WalletContextState {
     signIn: SignInMessageSignerWalletAdapterProps['signIn'] | undefined;
 }
 
-const EMPTY_ARRAY: ReadonlyArray<never> = [];
+const EMPTY_ARRAY: ReadonlyArray<any> = [];
 
 const DEFAULT_CONTEXT: Partial<WalletContextState> = {
     autoConnect: false,
